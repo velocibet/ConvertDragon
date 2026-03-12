@@ -1,4 +1,4 @@
-# 🐲 ConvertDragon (변환해용) - High-Performance Image Converter
+# ConvertDragon (변환해용) - High-Performance Image Converter
 
 **[무료로 이미지 변환하기 (https://convertdragon.com)](https://convertdragon.com)**
 
