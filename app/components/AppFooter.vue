@@ -36,7 +36,7 @@
             <li><NuxtLink to="/terms" class="hover:text-white transition-colors">이용약관</NuxtLink></li>
             <li class="pt-4">
               <span class="block text-[10px] text-slate-500 uppercase mb-1">광고 및 제휴 문의</span>
-              <a href="mailto:your@email.com" class="text-blue-400 hover:text-blue-300 transition-colors text-xs font-medium border-b border-blue-400/30 pb-0.5">your@email.com</a>
+              <a href="mailto:dev.velocibet@gmail.com" class="text-blue-400 hover:text-blue-300 transition-colors text-xs font-medium border-b border-blue-400/30 pb-0.5">dev.velocibet@gmail.com</a>
             </li>
           </ul>
         </div>
