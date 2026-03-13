@@ -1,4 +1,7 @@
-const formats = ['png', 'jpg', 'webp', 'avif'];
+const formats = [
+  'png', 'jpg', 'jpeg', 'webp', 'avif', 'heic', 
+  'svg', 'pdf', 'ico', 'gif', 'bmp', 'tiff'
+];
 
 const convertUrls = [];
 
@@ -15,6 +18,18 @@ import { defineNuxtConfig } from "nuxt/config";
 export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
   devtools: { enabled: true },
+
+  // devServer: {
+  //   https: true
+  // },
+  routeRules: {
+    '/video/**': {
+      headers: {
+        'Cross-Origin-Embedder-Policy': 'require-corp',
+        'Cross-Origin-Opener-Policy': 'same-origin',
+      },
+    },
+  },
   
   modules: [
     '@nuxtjs/tailwindcss',
