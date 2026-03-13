@@ -1,3 +1,15 @@
+const formats = ['png', 'jpg', 'webp', 'avif'];
+
+const convertUrls = [];
+
+for (const from of formats) {
+  for (const to of formats) {
+    if (from !== to) {
+      convertUrls.push(`/convert/${from}-to-${to}`)
+    }
+  }
+}
+
 import { defineNuxtConfig } from "nuxt/config";
 
 export default defineNuxtConfig({
@@ -14,6 +26,10 @@ export default defineNuxtConfig({
   site: {
     url: 'https://convertdragon.com', 
     name: 'ConvertDragon'
+  },
+
+  sitemap: {
+    urls: convertUrls
   },
 
   gtag: {
