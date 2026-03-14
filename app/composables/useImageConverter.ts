@@ -17,13 +17,15 @@ export const useImageConverter = () => {
     originalName: string
   ): Promise<{ blob: Blob; fileName: string }> => {
     return new Promise((resolve, reject) => {
-      const workerUrl = new URL('/workers/converter.worker.js', import.meta.url).href;
-      const worker = new Worker(workerUrl, { type: 'module' });
+      // const workerUrl = new URL('/workers/converter.worker.js', import.meta.url).href;
+      // const worker = new Worker(workerUrl, { type: 'module' });
+      const worker = new Worker('/workers/converter.worker.js');
       worker.postMessage({ file, targetFormat, originalName });
       worker.onmessage = (e: MessageEvent<{ blob: Blob; fileName: string }>) => {
         resolve(e.data);
         worker.terminate();
       };
+      
       worker.onerror = (err) => {
         worker.terminate();
         reject(err);

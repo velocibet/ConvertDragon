@@ -94,7 +94,7 @@ const validateFile = (file: File) => {
   return extension === f;
 };
 
-const processFiles = (files: FileList | File[]) => {
+const processFiles = async (files: FileList | File[]) => {
   const validFiles = Array.from(files).filter(validateFile);
   
   if (validFiles.length === 0) {
@@ -102,7 +102,14 @@ const processFiles = (files: FileList | File[]) => {
     return;
   }
 
-  convert(validFiles, props.to);
+  await convert(validFiles, props.to);
+  $fetch('/api/log', {
+    method: 'POST',
+    body: {
+      from: props.from,
+      to: props.to
+    }
+  });
 };
 
 const handleFileChange = (e: Event) => {
