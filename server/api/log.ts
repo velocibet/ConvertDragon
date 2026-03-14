@@ -1,3 +1,4 @@
+import { sendDiscordMessage } from "../utils/discord"
 import { useSupabaseAdmin } from "../utils/supabase"
 
 // server/api/log.post.ts
@@ -20,6 +21,22 @@ export default defineEventHandler(async (event) => {
         ip: Array.isArray(clientIp) ? clientIp[0] : clientIp
       }
     ])
+  
+  const embedMessage = {
+    embeds: [{
+      title: "변환 로그",
+      color: 0x00ff00,
+      fields: [
+        { name: "📥 원본", value: body.from, inline: true },
+        { name: "📤 결과", value: body.to, inline: true },
+        { name: "📍 IP", value: Array.isArray(clientIp) ? clientIp[0] : clientIp },
+        { name: "📱 기기 정보 (User-Agent)", value: userAgent, inline: false }
+      ],
+      footer: { text: `시간: ${new Date().toLocaleString('ko-KR')}` }
+    }]
+  };
+
+  sendDiscordMessage(embedMessage);
 
   if (error) {
     console.error('DB 저장 실패:', error.message)
