@@ -8,7 +8,9 @@ const convertUrls = [];
 for (const from of formats) {
   for (const to of formats) {
     if (from !== to) {
-      convertUrls.push(`/convert/${from}-to-${to}`)
+      const url = `/convert/${from}-to-${to}`
+      convertUrls.push(url)
+      convertUrls.push(`/en${url}`)
     }
   }
 }
@@ -33,6 +35,7 @@ export default defineNuxtConfig({
   
   modules: [
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/i18n',
     "@nuxtjs/sitemap",
     "@nuxtjs/robots",
     'nuxt-gtag'
@@ -49,6 +52,21 @@ export default defineNuxtConfig({
 
   gtag: {
     id: 'G-VD30H2Q9MM' 
+  },
+
+  i18n: {
+    locales: [
+      { code: 'ko', iso: 'ko-KR', name: '한국어', file: 'ko.json' },
+      { code: 'en', iso: 'en-US', name: 'English', file: 'en.json' }
+    ],
+    defaultLocale: 'ko',
+    langDir: 'locales/',
+    strategy: 'prefix_except_default',
+    detectBrowserLanguage: {
+      useCookie: true,
+      cookieKey: 'i18n_redirected',
+      alwaysRedirect: true
+    }
   }
 
   // css: ['./app/assets/css/main.css'],

@@ -27,17 +27,17 @@
         </div>
         <div>
           <p class="text-slate-700 font-bold text-lg">
-            {{ isDragging ? '여기에 놓으세요!' : '파일들을 끌어다 놓거나 클릭' }}
+            {{ isDragging ? t('imageConverter.dropHint') : t('imageConverter.dragPlaceholder') }}
           </p>
           <p class="text-slate-400 text-sm mt-1 uppercase">
-            {{ from }} 파일들을 다중 선택할 수 있습니다
+            {{ t('imageConverter.multiSelect', { format: from.toUpperCase() }) }}
           </p>
         </div>
       </div>
 
       <div v-else class="py-4">
         <div class="w-12 h-12 border-4 border-blue-600 border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
-        <p class="text-blue-600 font-bold">대량 변환 중... 잠시만 기다려주세용!</p>
+        <p class="text-blue-600 font-bold">{{ t('imageConverter.processing') }}</p>
       </div>
     </div>
 
@@ -46,7 +46,7 @@
       @click="download"
       class="w-full bg-slate-900 text-white py-5 rounded-2xl font-bold hover:bg-slate-800 shadow-xl transition-all flex items-center justify-center gap-2"
     >
-      <span>{{ resultFileName.endsWith('.zip') ? '전체 다운로드 (ZIP)' : '다운로드 완료' }}</span>
+      <span>{{ resultFileName.endsWith('.zip') ? t('imageConverter.downloadAll') : t('imageConverter.downloadReady') }}</span>
       <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
       </svg>
@@ -56,12 +56,14 @@
 
 <script setup lang="ts">
 import { ref, computed, watch } from 'vue';
+import { useI18n } from 'vue-i18n';
 
 interface Props {
   from: string;
   to: string;
 }
 const props = defineProps<Props>();
+const { t } = useI18n();
 
 const { convert, download, isProcessing, resultBlob, resultFileName } = useImageConverter();
 const fileInput = ref<HTMLInputElement | null>(null);
@@ -98,7 +100,7 @@ const processFiles = async (files: FileList | File[]) => {
   const validFiles = Array.from(files).filter(validateFile);
   
   if (validFiles.length === 0) {
-    alert(`${props.from.toUpperCase()} 파일 형식이 아닙니다.`);
+    alert(t('imageConverter.invalidType', { format: props.from.toUpperCase() }));
     return;
   }
 

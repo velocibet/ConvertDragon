@@ -1,0 +1,426 @@
+{
+"locale": "en",
+"site": {
+"name": "ConvertDragon"
+},
+"nav": {
+"imageConversion": "Image Conversion",
+"imageCompress": "Image Compressor",
+"popular": "Popular",
+"modernFormats": "Modern Formats",
+"language": "Language",
+"home": "Home"
+},
+"home": {
+"hero": {
+"titleLine1": "Smart Image Conversion",
+"titleLine2": "in Just 3 Steps",
+"subtitle": "Convert Dragon delivers professional image conversion results without complicated settings. Start working in your browser immediately.",
+"steps": {
+"upload": {
+"title": "Upload Files",
+"description": "Select or drag and drop JPG, PNG, WebP, AVIF files you want to convert."
+},
+"chooseFormat": {
+"title": "Choose Format & Auto Convert",
+"description": "Pick the format you need and the browser converts the image instantly."
+},
+"download": {
+"title": "Download Results",
+"description": "Download the converted image immediately and use it wherever you want."
+}
+}
+},
+"formats": {
+"title": "Which image format is right for you?",
+"subtitle": "Understand the characteristics of each format and start converting right away.",
+"jpg": {
+"name": "JPG / JPEG",
+"description": "Widely used image format optimized for photographs. Small file size and supported by virtually all websites and programs.",
+"cta": "Convert to JPG"
+},
+"png": {
+"name": "PNG",
+"description": "Lossless compression format supporting transparency. Ideal for logos, icons, and UI design.",
+"cta": "Convert to PNG"
+},
+"webp": {
+"name": "WebP",
+"description": "Next-generation web format from Google with smaller files and higher quality than JPG.",
+"cta": "Convert to WebP"
+},
+"avif": {
+"name": "AVIF",
+"description": "Modern compression format offering even higher compression than WebP.",
+"cta": "Convert to AVIF"
+}
+},
+"why": {
+"title": "Why choose Convert Dragon?",
+"subtitle": "Fast, secure image conversion.",
+"features": {
+"speed": {
+"title": "Blazing Fast",
+"description": "All conversions happen in the browser, not on a server."
+},
+"security": {
+"title": "Privacy First",
+"description": "Uploaded files are never sent to a server; processed only on your device."
+},
+"noInstall": {
+"title": "No Install Required",
+"description": "Accessible anywhere with just a browser."
+}
+}
+},
+"faq": {
+"title": "Frequently Asked Questions",
+"items": {
+"safe": {
+"question": "Is my image kept safe?",
+"answer": "All files are handled inside your browser; never uploaded to a server."
+},
+"limits": {
+"question": "Are there limits on conversions or file size?",
+"answer": "No limits. Very large files may take longer depending on your browser."
+},
+"heic": {
+"question": "Does it support iPhone HEIC files?",
+"answer": "HEIC support is coming in a future update."
+}
+}
+}
+},
+"compress": {
+"hero": {
+"badge": "LOCAL GPU ACCELERATED",
+"titleLine1": "Image Size",
+"titleLine2": "Made Easy",
+"subtitle": "Reduce file size without visible quality loss. 100% browser-based, no server upload."
+},
+"features": {
+"smart": {
+"title": "Smart Algorithm",
+"description": "Removes unnecessary metadata and pixels without degrading quality."
+},
+"performance": {
+"title": "Web Performance",
+"description": "Smaller images improve LCP and SEO."
+},
+"security": {
+"title": "Strong Security",
+"description": "No data is sent externally; all processing happens on your device."
+}
+},
+"why": {
+"title": "Why Convert Dragon?",
+"description": "Unlike other compressors that upload files to servers, we process everything locally for privacy and speed.",
+"stats": {
+"maxReduction": "Up to 80%",
+"serverLatency": "0ms"
+}
+},
+"guide": {
+"title": "Compression Guide",
+"items": {
+"bestFormat": {
+"q": "Which format gives the best compression?",
+"a": "WebP and JPG generally compress best. PNG is lossless; convert to WebP first if file size is critical."
+},
+"quality": {
+"q": "Recommended quality setting?",
+"a": "75–85% for most web images. Visual quality loss is minimal."
+}
+}
+}
+},
+"convert": {
+"secureBadge": "SECURE LOCAL CONVERSION",
+"subtitle": "Convert {from} files to {to} format instantly.",
+"info": {
+"noServer": "No server upload",
+"private": "Private & anonymous"
+},
+"section": {
+"whatIs": "What is {format}?",
+"whyConvert": "Why convert to {format}?",
+"whatIsDescription": "{format} is widely used in digital graphics. Convert Dragon converts it to {to} while preserving original quality.",
+"whyConvertDescription": "{format} is essential for modern web and software compatibility. Useful for size optimization or transparency preservation.",
+"processTitle": "Conversion Process",
+"steps": {
+"load": {
+"title": "Load Local File",
+"description": "File loads directly in browser memory; no server upload."
+},
+"gpu": {
+"title": "GPU Accelerated",
+"description": "Uses Web Workers and Canvas API to process {to} data efficiently."
+},
+"download": {
+"title": "Download Instantly",
+"description": "Local download link generated immediately after conversion."
+}
+},
+"otherTools": {
+"title": "Need another conversion?",
+"cta": "{from} to {to}"
+}
+}
+},
+"imageConverter": {
+"dragPlaceholder": "Drag & drop files or click",
+"dropHint": "Drop here!",
+"multiSelect": "Select multiple {format} files",
+"processing": "Converting in bulk... Please wait!",
+"invalidType": "This is not a {format} file.",
+"downloadAll": "Download all (ZIP)",
+"downloadReady": "Download ready",
+"serverUpload": "No server upload",
+"private": "Private & anonymous"
+},
+"imageCompressor": {
+"dropHint": "Drop an image to compress",
+"supportedFormats": "Supports JPG, PNG, WebP",
+"optimizing": "Optimizing...",
+"before": "Before",
+"after": "After",
+"reduction": "{percent}% reduction achieved!",
+"qualityLabel": "Compression Quality",
+"qualityHint": "Lower values reduce size but may reduce quality. (Recommended: 60–70%)",
+"downloadButton": "Download compressed file"
+},
+"privacy": {
+"title": "Privacy Policy",
+"sections": {
+"purpose": {
+"title": "Purpose of Collecting Information",
+"text1": "Convert Dragon does not upload or store images; all processing happens locally in the browser.",
+"text2": "No data collection or access occurs during operation."
+},
+"collected": {
+"title": "Information Collected",
+"text1": "No signup; personal info not collected.",
+"text2": "Automatically collected data for analytics may include:",
+"list": [
+"IP address",
+"Browser type/version",
+"Access time",
+"Visited pages",
+"Cookies"
+]
+},
+"security": {
+"title": "Data Security",
+"text1": "Uses modern web tech to process all images locally.",
+"text2": "Files are never transmitted externally."
+},
+"cookies": {
+"title": "Cookies & Analytics",
+"text1": "May use tools like Google Analytics for anonymous statistics.",
+"text2": "Data used only for service improvement."
+},
+"retention": {
+"title": "Retention Period",
+"text1": "No personal info is stored.",
+"text2": "Anonymous analytics may be kept according to provider policies."
+},
+"contact": {
+"title": "Data Protection Officer",
+"text1": "Contact for inquiries:",
+"contact": "Email: dev.velocibet [at] gmail.com"
+},
+"changes": {
+"title": "Policy Changes",
+"text1": "Changes will be announced on this page."
+}
+}
+},
+"terms": {
+"title": "Terms of Service",
+"sections": {
+"intro": {
+"title": "Service Overview",
+"text": "ConvertDragon provides image conversion and compression online, free and without signup."
+},
+"usage": {
+"title": "Using the Service",
+"text": "Use freely; features may change without notice.",
+"list": [
+"Personal and commercial use allowed.",
+"Users bear data costs.",
+"Features may change for operational reasons."
+]
+},
+"responsibility": {
+"title": "User Responsibilities",
+"text": "Users must have rights to processed images.",
+"list": [
+"Copyright-infringing content",
+"Illegal or harmful content",
+"Content violating others' rights"
+],
+"note": "Users bear responsibility for consequences."
+},
+"liability": {
+"title": "Limitation of Liability",
+"text": "No images are stored on servers; all processing is local. Provider not liable for data loss or file issues."
+},
+"changes": {
+"title": "Service Changes",
+"text": "Provider may change or suspend service for maintenance or operational reasons."
+},
+"updates": {
+"title": "Terms Updates",
+"text": "Changes will be announced on this page."
+},
+"contact": {
+"title": "Contact",
+"text": "For inquiries, contact:",
+"emailUser": "dev.velocibet",
+"emailDomain": "gmail.com"
+}
+}
+},
+"guide": {
+"webPerformance": {
+"title": "Web Performance Optimization: Image Size & SEO",
+"subtitle": "1-second delay can increase bounce rate by 32%. Improve SEO and UX with image strategies.",
+"metaDescription": "Guide to image optimization, LCP improvement, WebP importance, and resizing tips.",
+"sections": {
+"impact": {
+"title": "How Image Size Affects SEO",
+"content": "Google's Core Web Vitals prioritize LCP, largely determined by images. Optimizing images improves loading, server response, and rankings.",
+"effectTitle": "Expected Results",
+"bullets": [
+"Bounce rate decreases",
+"Conversion rate increases",
+"Crawling efficiency improves"
+]
+},
+"strategy": {
+"title": "3 Steps for Image Optimization",
+"steps": {
+"resize": {
+"title": "Step 1. Resize to Actual Display Size",
+"text": "Avoid oversized images; match display pixels to reduce size by 70%+."
+},
+"format": {
+"title": "Step 2. Use Next-Gen Formats",
+"text": "WebP and AVIF reduce file size while maintaining quality."
+},
+"compression": {
+"title": "Step 3. Algorithmic Compression",
+"text": "Remove metadata and unnecessary color info for lossless size reduction."
+}
+}
+},
+"checklist": {
+"title": "Optimization Checklist",
+"items": [
+"Use lazy loading",
+"Specify width/height",
+"Use SVG for simple graphics",
+"Preload key hero images"
+]
+},
+"cta": {
+"title": "Ready? Make your site lighter.",
+"description": "Browser-based HEIC conversion engine coming soon.",
+"buttons": {
+"compress": "Compress images now",
+"convert": "Convert to next-gen formats"
+}
+}
+}
+},
+"heicGuide": {
+"metaDescription": "Why HEIC may not open on Windows and how to fix it. Includes JPG conversion tips.",
+"header": {
+"badge": "Deep Dive: Image Formats",
+"titleLine1": "iPhone HEIC Files,",
+"titleLine2": "Complete Guide & Fixes",
+"subtitle": "Learn why Apple chose HEIC and how to view it on Windows.",
+"backToHome": "BACK TO HOME"
+},
+"sections": {
+"whatIs": {
+"title": "01. What is HEIC?",
+"paragraph1": "HEIC is an image container format based on HEVC (H.265). Adopted by Apple as default in iOS 11.",
+"paragraph2": "It compresses efficiently, reducing file size to less than half of JPEG while keeping high detail."
+},
+"advantages": {
+"title": "HEIC Benefits",
+"items": [
+"16-bit color support",
+"Stores multiple images in one file",
+"Non-destructive editing"
+]
+},
+"windowsSupport": {
+"title": "02. Why doesn't it show on Windows?",
+"paragraph1": "Licensing and royalty costs delayed support. Windows requires Microsoft Store extension.",
+"paragraph2": "Many browsers and legacy tools classify HEIC as unknown file type."
+},
+"symptoms": {
+"title": "Common Issues",
+"items": [
+"Blank file icon",
+"Unsupported file format message",
+"Cannot send via some apps"
+]
+},
+"solutions": {
+"title": "3 Ways to Fix",
+"items": [
+{
+"icon": "⚙️",
+"title": "Change iPhone settings",
+"text": "Set Camera > Formats to 'Most Compatible'; new photos save as JPG."
+},
+{
+"icon": "💻",
+"title": "Install Windows extension",
+"text": "Search 'HEIF Image Extensions' in Microsoft Store and install."
+},
+{
+"icon": "🐉",
+"title": "Use online converter",
+"text": "Instantly convert HEIC to JPG/PNG without installation."
+}
+]
+},
+"cta": {
+"title": "HEIC conversion coming soon!",
+"description": "Browser-accelerated engine for safe HEIC conversion.",
+"button": "Use another conversion tool"
+}
+}
+}
+},
+"footer": {
+"jpgConversion": "JPG Conversion",
+"jpgToPng": "JPG to PNG",
+"jpgToWebp": "JPG to WebP",
+"jpgToAvif": "JPG to AVIF",
+"jpgToPdf": "JPG to PDF",
+"pngWebpConversion": "PNG / WebP Conversion",
+"pngToJpg": "PNG to JPG",
+"pngToWebp": "PNG to WebP",
+"webpToJpg": "WebP to JPG",
+"webpToPng": "WebP to PNG",
+"heicAvif": "HEIC / AVIF",
+"heicToJpg": "HEIC to JPG",
+"heicToPng": "HEIC to PNG",
+"avifToJpg": "AVIF to JPG",
+"avifToPng": "AVIF to PNG",
+"toolsPolicy": "Tools & Policy",
+"imageCompressTool": "Image Compression Tool",
+"webPerfGuide": "Web Performance Guide",
+"heicGuide": "iPhone HEIC Guide",
+"privacy": "Privacy Policy",
+"terms": "Terms of Service",
+"contact": "Ads & Partnership",
+"allFilesProcessed": "All files are processed in your browser.",
+"rightsReserved": "All rights reserved."
+}
+}
