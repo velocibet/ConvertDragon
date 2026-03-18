@@ -5,118 +5,118 @@
   },
   "nav": {
     "imageConversion": "이미지 변환",
-    "imageCompress": "이미지 압축",
+    "imageCompress": "이미지 압축기",
     "popular": "인기",
-    "modernFormats": "최신 포맷",
+    "modernFormats": "최신 형식",
     "language": "언어",
     "home": "홈"
   },
   "home": {
     "hero": {
-      "titleLine1": "단 3단계로 끝내는",
-      "titleLine2": "스마트한 이미지 변환",
-      "subtitle": "Convert Dragon은 복잡한 설정 없이 누구나 전문가 수준의 이미지 변환 결과물을 얻을 수 있도록 설계되었습니다. 별도의 회원가입이나 소프트웨어 설치 없이 지금 바로 브라우저에서 작업을 시작할 수 있습니다.",
+      "titleLine1": "스마트 이미지 변환",
+      "titleLine2": "단 3단계로",
+      "subtitle": "Convert Dragon은 복잡한 설정 없이 전문적인 이미지 변환 결과를 제공합니다. 브라우저에서 바로 시작하세요.",
       "steps": {
         "upload": {
           "title": "파일 업로드",
-          "description": "변환을 원하는 JPG, PNG, WebP, AVIF 파일을 선택하거나 드래그 앤 드롭 하세요."
+          "description": "변환하려는 JPG, PNG, WebP, AVIF 파일을 선택하거나 드래그 앤 드롭하세요."
         },
         "chooseFormat": {
-          "title": "포맷 선택 및 자동 변환",
-          "description": "원하는 포맷을 선택하면 브라우저가 즉시 이미지를 변환합니다."
+          "title": "형식 선택 및 자동 변환",
+          "description": "원하는 형식을 선택하면 브라우저가 즉시 이미지를 변환합니다."
         },
         "download": {
-          "title": "결과물 다운로드",
-          "description": "변환된 이미지를 바로 다운로드하고 원하는 곳에 사용할 수 있습니다."
+          "title": "결과 다운로드",
+          "description": "변환된 이미지를 바로 다운로드하고 원하는 곳에 사용하세요."
         }
       }
     },
     "formats": {
-      "title": "나에게 맞는 이미지 포맷은?",
-      "subtitle": "각 포맷의 특징을 이해하고 즉시 변환을 시작해보세요.",
+      "title": "어떤 이미지 형식이 적합할까요?",
+      "subtitle": "각 형식의 특징을 이해하고 바로 변환을 시작하세요.",
       "jpg": {
         "name": "JPG / JPEG",
-        "description": "가장 널리 사용되는 이미지 포맷으로 사진 이미지에 최적화되어 있습니다. 파일 크기가 작고 대부분의 웹사이트와 프로그램에서 완벽하게 지원됩니다.",
-        "cta": "JPG로 변환하기"
+        "description": "사진에 최적화된 널리 사용되는 이미지 형식. 파일 크기가 작고 거의 모든 웹사이트와 프로그램에서 지원됩니다.",
+        "cta": "JPG로 변환"
       },
       "png": {
         "name": "PNG",
-        "description": "무손실 압축 이미지 포맷으로 투명 배경을 지원합니다. 로고, 아이콘, UI 디자인 등 그래픽 작업에 적합합니다.",
-        "cta": "PNG로 변환하기"
+        "description": "투명도를 지원하는 무손실 압축 형식. 로고, 아이콘, UI 디자인에 적합합니다.",
+        "cta": "PNG로 변환"
       },
       "webp": {
         "name": "WebP",
-        "description": "구글에서 개발한 차세대 웹 이미지 포맷으로 JPG보다 작은 용량과 높은 화질을 제공합니다.",
-        "cta": "WebP로 변환하기"
+        "description": "Google의 차세대 웹 형식으로 JPG보다 파일이 작고 품질이 높습니다.",
+        "cta": "WebP로 변환"
       },
       "avif": {
         "name": "AVIF",
-        "description": "최신 이미지 압축 기술을 사용하는 포맷으로 WebP보다도 더 높은 압축률을 제공합니다.",
-        "cta": "AVIF로 변환하기"
+        "description": "WebP보다 더 높은 압축률을 제공하는 최신 압축 형식.",
+        "cta": "AVIF로 변환"
       }
     },
     "why": {
-      "title": "왜 Convert Dragon을 선택해야 할까요?",
-      "subtitle": "빠르고 안전한 이미지 변환 경험을 제공합니다.",
+      "title": "왜 Convert Dragon을 선택할까요?",
+      "subtitle": "빠르고 안전한 이미지 변환.",
       "features": {
         "speed": {
           "title": "초고속 변환",
-          "description": "모든 변환은 서버가 아닌 브라우저에서 처리되기 때문에 매우 빠르게 완료됩니다."
+          "description": "모든 변환은 서버가 아닌 브라우저에서 처리됩니다."
         },
         "security": {
-          "title": "완벽한 보안",
-          "description": "업로드된 파일은 서버로 전송되지 않고 사용자의 기기 안에서만 처리됩니다."
+          "title": "프라이버시 우선",
+          "description": "업로드된 파일은 서버로 전송되지 않으며, 기기 내에서만 처리됩니다."
         },
         "noInstall": {
-          "title": "설치 필요 없음",
-          "description": "브라우저만 있으면 어디서든 바로 사용할 수 있습니다."
+          "title": "설치 불필요",
+          "description": "브라우저만 있으면 어디서든 접근 가능합니다."
         }
       }
     },
     "faq": {
-      "title": "자주 묻는 질문 (FAQ)",
+      "title": "자주 묻는 질문",
       "items": {
         "safe": {
-          "question": "내 이미지는 안전하게 보호되나요?",
-          "answer": "Convert Dragon은 클라이언트 측 이미지 처리 방식을 사용합니다. 모든 파일은 브라우저 안에서 처리되며 서버로 전송되지 않습니다."
+          "question": "내 이미지는 안전한가요?",
+          "answer": "모든 파일은 브라우저 내부에서 처리되며 서버에 업로드되지 않습니다."
         },
         "limits": {
-          "question": "변환 횟수나 용량에 제한이 있나요?",
-          "answer": "제한 없이 무료로 사용할 수 있습니다. 다만 브라우저 환경에 따라 매우 큰 파일은 처리 시간이 길어질 수 있습니다."
+          "question": "변환이나 파일 크기에 제한이 있나요?",
+          "answer": "제한 없음. 매우 큰 파일은 브라우저 성능에 따라 처리 시간이 길어질 수 있습니다."
         },
         "heic": {
-          "question": "아이폰 HEIC 파일도 지원하나요?",
-          "answer": "현재 HEIC 지원 기능은 준비 중이며 향후 업데이트에서 추가될 예정입니다."
+          "question": "아이폰 HEIC 파일도 지원되나요?",
+          "answer": "HEIC 지원은 향후 업데이트 예정입니다."
         }
       }
     }
   },
   "compress": {
     "hero": {
-      "badge": "LOCAL GPU ACCELERATED",
-      "titleLine1": "이미지 용량",
-      "titleLine2": "초간편 다이어트",
-      "subtitle": "눈에 보이는 화질 차이 없이 용량만 획기적으로 줄이세요. 서버 업로드 없는 100% 안전한 브라우저 압축 기술입니다."
+      "badge": "로컬 GPU 가속",
+      "titleLine1": "이미지 크기",
+      "titleLine2": "쉽게 줄이기",
+      "subtitle": "눈에 띄는 품질 손실 없이 파일 크기를 줄이세요. 100% 브라우저 기반, 서버 업로드 없음."
     },
     "features": {
       "smart": {
         "title": "스마트 알고리즘",
-        "description": "색상 최적화 기술을 통해 화질 저하 없이 불필요한 메타데이터와 픽셀 데이터를 제거합니다."
+        "description": "품질 저하 없이 불필요한 메타데이터와 픽셀을 제거합니다."
       },
       "performance": {
-        "title": "웹 성능 최적화",
-        "description": "가벼워진 이미지는 웹사이트의 LCP 지표를 개선하고 검색 엔진 최적화(SEO)에 직접적인 도움을 줍니다."
+        "title": "웹 최적화",
+        "description": "작은 이미지가 LCP와 SEO를 개선합니다."
       },
       "security": {
         "title": "강력한 보안",
-        "description": "이미지가 외부 서버로 한 바이트도 전송되지 않습니다. 모든 작업은 오직 사용자의 기기에서만 끝납니다."
+        "description": "외부로 전송되는 데이터 없음; 모든 처리 로컬에서 수행."
       }
     },
     "why": {
-      "title": "Why Convert Dragon?",
-      "description": "대부분의 온라인 압축기는 파일을 서버로 업로드하여 분석합니다. 하지만 우리는 다릅니다. 사용자의 개인정보를 최우선으로 생각하며, 최신 웹 API를 활용해 즉각적인 결과물을 제공합니다. 더 빠르고, 더 안전하며, 더 가볍습니다.",
+      "title": "왜 Convert Dragon인가?",
+      "description": "서버에 파일을 업로드하는 다른 압축기와 달리 모든 처리를 로컬에서 수행하여 프라이버시와 속도를 보장합니다.",
       "stats": {
-        "maxReduction": "최대 80%",
+        "maxReduction": "최대 80% 감소",
         "serverLatency": "0ms"
       }
     },
@@ -124,56 +124,286 @@
       "title": "압축 가이드",
       "items": {
         "bestFormat": {
-          "q": "어떤 포맷이 가장 압축률이 좋은가요?",
-          "a": "일반적으로 WebP와 JPG가 가장 높은 압축률을 보입니다. PNG는 무손실 특성상 압축률이 낮을 수 있으니 용량이 중요하다면 WebP 변환 후 압축을 권장합니다."
+          "q": "어떤 형식이 가장 압축이 잘 되나요?",
+          "a": "일반적으로 WebP와 JPG가 가장 잘 압축됩니다. PNG는 무손실이며, 파일 크기가 중요할 경우 WebP로 먼저 변환하세요."
         },
         "quality": {
-          "q": "권장하는 압축 강도(Quality)는?",
-          "a": "대부분의 웹 이미지에는 75% ~ 85% 사이의 값을 추천합니다. 이 범위에서는 육안으로 화질 저하를 느끼기 매우 어렵습니다."
+          "q": "추천 품질 설정은?",
+          "a": "대부분 웹 이미지의 경우 75–85%. 시각적 품질 손실은 최소입니다."
         }
       }
     }
   },
   "convert": {
-    "secureBadge": "SECURE LOCAL CONVERSION",
-    "subtitle": "{from} 파일을 {to} 포맷으로 즉시 변환",
+    "secureBadge": "보안 로컬 변환",
+    "subtitle": "{from} 파일을 {to} 형식으로 즉시 변환",
     "info": {
       "noServer": "서버 업로드 없음",
-      "private": "개인정보 보호 및 익명"
+      "private": "프라이빗 & 익명"
     },
     "section": {
-      "whatIs": "{format}란 무엇인가요?",
-      "whyConvert": "왜 {format}로 변환하나요?",
-      "whatIsDescription": "{format} 형식은 디지털 그래픽 환경에서 널리 사용되는 데이터 규격입니다. 각 포맷은 압축률과 투명도 지원 여부 등 고유한 특성을 가지고 있습니다. Convert Dragon은 원본의 손상을 최소화하면서 사용자가 원하는 {to} 규격으로 완벽하게 재구성합니다.",
-      "whyConvertDescription": "{format} 포맷은 현대적인 웹 환경이나 특정 소프트웨어 호환성을 위해 필수적인 경우가 많습니다. 특히 용량 최적화가 필요하거나 레이어 투명도를 유지해야 할 때 {format} 변환은 가장 효과적인 솔루션이 됩니다.",
-      "processTitle": "변환 프로세스 상세 가이드",
+      "whatIs": "{format}이란?",
+      "whyConvert": "왜 {format}으로 변환하나요?",
+      "whatIsDescription": "{format}은 디지털 그래픽에서 널리 사용됩니다. Convert Dragon은 원본 품질을 유지하면서 {to}로 변환합니다.",
+      "whyConvertDescription": "{format}은 현대 웹 및 소프트웨어 호환에 필수적입니다. 크기 최적화나 투명도 보존에 유용합니다.",
+      "processTitle": "변환 과정",
       "steps": {
         "load": {
           "title": "로컬 파일 로드",
-          "description": "선택한 이미지는 브라우저 내부 메모리에 즉시 할당됩니다. 서버로 전송되는 과정이 없어 유출 위험이 제로입니다."
+          "description": "파일이 브라우저 메모리에서 직접 로드되며 서버 업로드 없음."
         },
         "gpu": {
-          "title": "GPU 가속 연산",
-          "description": "Web Worker 기술을 사용하여 기기의 자원을 활용합니다. 캔버스 API를 통해 {to} 픽셀 데이터를 재배열합니다."
+          "title": "GPU 가속",
+          "description": "{to} 데이터를 효율적으로 처리하기 위해 Web Workers와 Canvas API 사용."
         },
         "download": {
           "title": "즉시 다운로드",
-          "description": "변환이 완료된 데이터는 즉시 로컬 저장소로 다운로드 링크를 생성합니다. 모든 과정은 1초 내외로 완료됩니다."
+          "description": "변환 직후 로컬 다운로드 링크 생성."
         }
       },
       "otherTools": {
-        "title": "다른 변환 도구가 필요하신가요?",
-        "cta": "{from} to {to}"
+        "title": "다른 변환이 필요하신가요?",
+        "cta": "{from} → {to}"
+      }
+    }
+  },
+  "imageConverter": {
+    "dragPlaceholder": "파일을 드래그하거나 클릭",
+    "dropHint": "여기에 놓기!",
+    "multiSelect": "여러 {format} 파일 선택",
+    "processing": "대량 변환 중… 잠시만 기다려주세요!",
+    "invalidType": "이 파일은 {format} 형식이 아닙니다.",
+    "downloadAll": "모두 다운로드 (ZIP)",
+    "downloadReady": "다운로드 준비 완료",
+    "serverUpload": "서버 업로드 없음",
+    "private": "프라이빗 & 익명"
+  },
+  "imageCompressor": {
+    "dropHint": "압축할 이미지를 여기에 놓으세요",
+    "supportedFormats": "지원 형식: JPG, PNG, WebP",
+    "optimizing": "최적화 중...",
+    "before": "압축 전",
+    "after": "압축 후",
+    "reduction": "{percent}% 감소 완료!",
+    "qualityLabel": "압축 품질",
+    "qualityHint": "값이 낮을수록 용량 감소, 품질 저하 가능. (권장: 60–70%)",
+    "downloadButton": "압축 파일 다운로드"
+  },
+  "privacy": {
+    "title": "개인정보 처리방침",
+    "sections": {
+      "purpose": {
+        "title": "정보 수집 목적",
+        "text1": "Convert Dragon은 이미지를 업로드하거나 저장하지 않으며, 모든 처리는 브라우저에서 로컬로 수행됩니다.",
+        "text2": "작동 중 데이터 수집이나 접근은 없습니다."
+      },
+      "collected": {
+        "title": "수집 정보",
+        "text1": "회원가입 없음; 개인 정보 수집 안 함.",
+        "text2": "분석용으로 자동 수집되는 데이터는 다음과 같을 수 있습니다:",
+        "list": {
+          "ipAddress": "IP 주소",
+          "browserTypeVersion": "브라우저 종류/버전",
+          "accessTime": "접속 시간",
+          "visitedPages": "방문 페이지",
+          "cookies": "쿠키"
+        }
+      },
+      "security": {
+        "title": "데이터 보안",
+        "text1": "최신 웹 기술을 사용하여 모든 이미지를 로컬에서 처리합니다.",
+        "text2": "파일은 외부로 전송되지 않습니다."
+      },
+      "cookies": {
+        "title": "쿠키 & 분석",
+        "text1": "Google Analytics와 같은 도구를 사용해 익명 통계 수집 가능.",
+        "text2": "데이터는 서비스 개선 목적으로만 사용."
+      },
+      "retention": {
+        "title": "보관 기간",
+        "text1": "개인 정보는 저장되지 않습니다.",
+        "text2": "익명 분석 데이터는 제공자 정책에 따라 보관될 수 있습니다."
+      },
+      "contact": {
+        "title": "개인정보 보호 책임자",
+        "text1": "문의 연락처:",
+        "contact": "이메일: dev.velocibet [at] gmail.com"
+      },
+      "changes": {
+        "title": "정책 변경",
+        "text1": "변경 사항은 본 페이지에 공지됩니다."
+      }
+    }
+  },
+  "terms": {
+    "title": "이용약관",
+    "sections": {
+      "intro": {
+        "title": "서비스 개요",
+        "text": "ConvertDragon은 회원가입 없이 무료로 이미지 변환 및 압축 서비스를 제공합니다."
+      },
+      "usage": {
+        "title": "서비스 이용",
+        "text": "자유롭게 사용 가능하며, 기능은 사전 공지 없이 변경될 수 있습니다.",
+        "list": [
+          "개인 및 상업적 사용 가능",
+          "사용자는 데이터 비용 부담",
+          "운영상 이유로 기능 변경 가능"
+        ]
+      },
+      "responsibility": {
+        "title": "사용자 책임",
+        "text": "사용자는 처리하는 이미지에 대한 권리를 보유해야 합니다.",
+        "list": [
+          "저작권 침해 콘텐츠",
+          "불법 또는 유해 콘텐츠",
+          "타인의 권리를 침해하는 콘텐츠"
+        ],
+        "note": "결과에 대한 책임은 사용자에게 있습니다."
+      },
+      "liability": {
+        "title": "책임 제한",
+        "text": "이미지는 서버에 저장되지 않으며 모든 처리는 로컬에서 이루어집니다. 제공자는 데이터 손실이나 파일 문제에 대해 책임지지 않습니다."
+      },
+      "changes": {
+        "title": "서비스 변경",
+        "text": "운영 및 유지보수 사유로 제공자는 서비스를 변경하거나 중단할 수 있습니다."
+      },
+      "updates": {
+        "title": "약관 업데이트",
+        "text": "변경 사항은 본 페이지에 공지됩니다."
+      },
+      "contact": {
+        "title": "문의",
+        "text": "문의 사항은 아래로 연락하세요:",
+        "emailUser": "dev.velocibet",
+        "emailDomain": "gmail.com"
+      }
+    }
+  },
+  "guide": {
+    "webPerformance": {
+      "title": "웹 성능 최적화: 이미지 크기 & SEO",
+      "subtitle": "1초 지연은 이탈률을 32% 증가시킬 수 있습니다. 이미지 전략으로 SEO와 UX를 개선하세요.",
+      "metaDescription": "이미지 최적화, LCP 개선, WebP 중요성, 리사이징 팁 가이드",
+      "sections": {
+        "impact": {
+          "title": "이미지 크기가 SEO에 미치는 영향",
+          "content": "Google Core Web Vitals는 LCP를 우선시하며, 이는 주로 이미지로 결정됩니다. 이미지 최적화는 로딩, 서버 응답, 순위에 긍정적 영향을 줍니다.",
+          "effectTitle": "예상 결과",
+          "bullets": [
+            "이탈률 감소",
+            "전환율 증가",
+            "크롤링 효율 개선"
+          ]
+        },
+        "strategy": {
+          "title": "이미지 최적화 3단계",
+          "steps": {
+            "resize": {
+              "title": "1단계. 실제 표시 크기로 조정",
+              "text": "과도하게 큰 이미지를 피하고 화면 픽셀에 맞춰 70% 이상 용량 줄이기."
+            },
+            "format": {
+              "title": "2단계. 차세대 형식 사용",
+              "text": "WebP와 AVIF로 파일 크기를 줄이면서 품질 유지."
+            },
+            "compression": {
+              "title": "3단계. 알고리즘 압축",
+              "text": "메타데이터와 불필요한 색 정보를 제거하여 무손실 용량 감소."
+            }
+          }
+        },
+        "checklist": {
+          "title": "최적화 체크리스트",
+          "items": [
+            "지연 로딩 사용",
+            "폭/높이 지정",
+            "간단한 그래픽은 SVG 사용",
+            "핵심 Hero 이미지 사전 로드"
+          ]
+        },
+        "cta": {
+          "title": "준비되셨나요? 사이트를 가볍게 만드세요.",
+          "description": "브라우저 기반 HEIC 변환 엔진 곧 출시 예정.",
+          "buttons": {
+            "compress": "이미지 바로 압축",
+            "convert": "차세대 형식으로 변환"
+          }
+        }
+      }
+    },
+    "heicGuide": {
+      "metaDescription": "Windows에서 HEIC가 열리지 않는 이유와 해결 방법. JPG 변환 팁 포함.",
+      "header": {
+        "badge": "깊이 있는 이미지 포맷",
+        "titleLine1": "아이폰 HEIC 파일,",
+        "titleLine2": "완전 가이드 & 해결법",
+        "subtitle": "Apple이 HEIC를 선택한 이유와 Windows에서 보는 방법을 배우세요.",
+        "backToHome": "홈으로 돌아가기"
+      },
+      "sections": {
+        "whatIs": {
+          "title": "01. HEIC란?",
+          "paragraph1": "HEIC는 HEVC(H.265)를 기반으로 한 이미지 컨테이너 형식입니다. iOS 11에서 Apple 기본 형식으로 채택되었습니다.",
+          "paragraph2": "효율적으로 압축하여 JPEG보다 절반 이하 용량으로 고화질 유지."
+        },
+        "advantages": {
+          "title": "HEIC 장점",
+          "items": [
+            "16비트 컬러 지원",
+            "한 파일에 여러 이미지 저장 가능",
+            "비파괴 편집 가능"
+          ]
+        },
+        "windowsSupport": {
+          "title": "02. 왜 Windows에서 안 보이나요?",
+          "paragraph1": "라이선스 및 로열티 비용으로 지원 지연. Windows는 Microsoft Store 확장 필요.",
+          "paragraph2": "많은 브라우저 및 구형 툴에서 HEIC를 알 수 없는 파일 형식으로 분류."
+        },
+        "symptoms": {
+          "title": "일반 문제",
+          "items": [
+            "빈 파일 아이콘",
+            "지원되지 않는 파일 형식 메시지",
+            "일부 앱에서 전송 불가"
+          ]
+        },
+        "solutions": {
+          "title": "3가지 해결 방법",
+          "items": [
+            {
+              "icon": "⚙️",
+              "title": "아이폰 설정 변경",
+              "text": "카메라 > 형식을 '가장 호환 가능'으로 설정; 새 사진은 JPG로 저장"
+            },
+            {
+              "icon": "💻",
+              "title": "Windows 확장 설치",
+              "text": "Microsoft Store에서 'HEIF Image Extensions' 검색 후 설치"
+            },
+            {
+              "icon": "🐉",
+              "title": "온라인 변환기 사용",
+              "text": "설치 없이 HEIC를 JPG/PNG로 즉시 변환"
+            }
+          ]
+        },
+        "cta": {
+          "title": "HEIC 변환 곧 출시!",
+          "description": "브라우저 가속 안전 HEIC 변환 엔진.",
+          "button": "다른 변환 도구 사용"
+        }
       }
     }
   },
   "footer": {
-    "jpgConversion": "JPG 변환",
+    "jpgConversion": "JPG Conversion",
     "jpgToPng": "JPG to PNG",
     "jpgToWebp": "JPG to WebP",
     "jpgToAvif": "JPG to AVIF",
     "jpgToPdf": "JPG to PDF",
-    "pngWebpConversion": "PNG / WebP 변환",
+    "pngWebpConversion": "PNG / WebP Conversion",
     "pngToJpg": "PNG to JPG",
     "pngToWebp": "PNG to WebP",
     "webpToJpg": "WebP to JPG",
@@ -184,13 +414,13 @@
     "avifToJpg": "AVIF to JPG",
     "avifToPng": "AVIF to PNG",
     "toolsPolicy": "Tools & Policy",
-    "imageCompressTool": "이미지 압축 도구",
-    "webPerfGuide": "웹 성능 최적화 가이드",
-    "heicGuide": "아이폰 HEIC 가이드",
-    "privacy": "개인정보처리방침",
-    "terms": "이용약관",
-    "contact": "광고 및 제휴 문의",
-    "allFilesProcessed": "모든 파일은 브라우저에서 처리됩니다.",
-    "rightsReserved": "모든 권리 보유."
+    "imageCompressTool": "Image Compression Tool",
+    "webPerfGuide": "Web Performance Guide",
+    "heicGuide": "iPhone HEIC Guide",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "contact": "Ads & Partnership",
+    "allFilesProcessed": "All files are processed in your browser.",
+    "rightsReserved": "All rights reserved."
   }
 }

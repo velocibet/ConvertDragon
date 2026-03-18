@@ -31,11 +31,11 @@
         </p>
 
         <ul class="text-slate-600 text-sm mt-3 list-disc pl-5">
-          <li>{{ t('privacy.sections.collected.list.0') }}</li>
-          <li>{{ t('privacy.sections.collected.list.1') }}</li>
-          <li>{{ t('privacy.sections.collected.list.2') }}</li>
-          <li>{{ t('privacy.sections.collected.list.3') }}</li>
-          <li>{{ t('privacy.sections.collected.list.4') }}</li>
+          <li>{{ t('privacy.sections.collected.list.ipAddress') }}</li>
+          <li>{{ t('privacy.sections.collected.list.browserTypeVersion') }}</li>
+          <li>{{ t('privacy.sections.collected.list.accessTime') }}</li>
+          <li>{{ t('privacy.sections.collected.list.visitedPages') }}</li>
+          <li>{{ t('privacy.sections.collected.list.cookies') }}</li>
         </ul>
       </section>
 
