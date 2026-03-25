@@ -161,14 +161,14 @@
           </div>
         </details>
 
-        <details class="group bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-sm">
+        <!-- <details class="group bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-sm">
           <summary class="flex justify-between items-center p-6 cursor-pointer list-none font-bold text-slate-800">
             {{ $t('home.faq.items.heic.question') }}
           </summary>
           <div class="px-6 pb-6 text-slate-600 text-sm leading-relaxed">
             {{ $t('home.faq.items.heic.answer') }}
           </div>
-        </details>
+        </details> -->
 
       </div>
     </section>
